@@ -148,11 +148,10 @@ export const myProjects = [
     ],
   },
   {
-    title: ' - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+    title: 'Flarpy Blorb',
+    desc: 'A flappy bird style 2D game built using Unity Engine and C#. The game features simple yet engaging gameplay where players control a character to navigate through obstacles and achieve high scores.',
+    
+    href: 'https://gurmehakk20.itch.io/flarpy-blorb',
     texture: '/Projects/textures/project/project3.mp4',
     logo: '/Projects/Logos/project-logo3.png',
     logoStyle: {
@@ -166,24 +165,45 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/logos/react.svg',
+        name: 'Unity',
+        path: '/assets/logos/unity.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: '/assets/logos/tailwindcss.png',
+        name: 'Photoshop',
+        path: '/assets/logos/photoshop.png',
+      },
+      
+    ],
+  },
+    {
+    title: 'Together - 2-player Online Game',
+    desc: 'Developed a 2-player coordination game in Unity, providing a fun and challenging experience for players.',
+    subdesc
+      : 'Implemented synchronized 2-player controls to encourage teamwork and collaboration. Designed obstacle-based levels requiring timing, precision, and coordination to progress.',
+    href: 'https://gurmehakk20.itch.io/togethr',
+    texture: '/Projects/textures/project/togethr.mp4',
+    logo: '/Projects/Logos/togethr-logo.jpg',
+    logoStyle: {
+      backgroundColor: '#60f5a1',
+      background:
+        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    },
+    spotlight: '/Projects/Spotlight/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Unity',
+        path: '/assets/logos/unity.png',
       },
       {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/logos/javascript.svg',
+        id: 2,
+        name: 'Photoshop',
+        path: '/assets/logos/photoshop.png',
       },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/logos/framer.png',
-      },
+      
     ],
   },
   // {
