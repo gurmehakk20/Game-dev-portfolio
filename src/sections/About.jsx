@@ -21,7 +21,11 @@ import {
   SiCss3,
   SiTailwindcss,
   SiCplusplus,
+  SiUnity,
+  SiBlender,
+  SiCsharp,
 } from "react-icons/si";
+
 import { FaLaptopCode } from "react-icons/fa";
 
 const About = () => {
@@ -46,22 +50,41 @@ const About = () => {
     target.style.setProperty("--dy", "0px");
   };
 
-  const icons = [
-    { icon: <SiReact className="text-cyan-400" />, name: "React" },
-    { icon: <SiNodedotjs className="text-green-500" />, name: "Node.js" },
-    { icon: <SiExpress className="text-gray-300" />, name: "Express" },
-    { icon: <SiMongodb className="text-green-400" />, name: "MongoDB" },
-    { icon: <SiMysql className="text-blue-500" />, name: "MySQL / SQL" },
-    { icon: <SiAdobephotoshop className="text-blue-400" />, name: "Photoshop" },
-    { icon: <SiGithub className="text-white" />, name: "GitHub" },
-    { icon: <SiGit className="text-orange-500" />, name: "Git" },
-    { icon: <SiFigma className="text-pink-400" />, name: "Figma" },
-    { icon: <SiJavascript className="text-yellow-400" />, name: "JavaScript" },
-    { icon: <SiHtml5 className="text-orange-600" />, name: "HTML" },
-    { icon: <SiCss3 className="text-blue-500" />, name: "CSS" },
-    { icon: <SiTailwindcss className="text-cyan-400" />, name: "TailwindCSS" },
-    { icon: <SiCplusplus className="text-blue-400" />, name: "C++" },
-  ];
+  // const icons = [
+  //   { icon: <SiReact className="text-cyan-400" />, name: "React" },
+  //   { icon: <SiNodedotjs className="text-green-500" />, name: "Node.js" },
+  //   { icon: <SiExpress className="text-gray-300" />, name: "Express" },
+  //   { icon: <SiMongodb className="text-green-400" />, name: "MongoDB" },
+  //   { icon: <SiMysql className="text-blue-500" />, name: "MySQL / SQL" },
+  //   { icon: <SiAdobephotoshop className="text-blue-400" />, name: "Photoshop" },
+  //   { icon: <SiGithub className="text-white" />, name: "GitHub" },
+  //   { icon: <SiGit className="text-orange-500" />, name: "Git" },
+  //   { icon: <SiFigma className="text-pink-400" />, name: "Figma" },
+  //   { icon: <SiJavascript className="text-yellow-400" />, name: "JavaScript" },
+  //   { icon: <SiHtml5 className="text-orange-600" />, name: "HTML" },
+  //   { icon: <SiCss3 className="text-blue-500" />, name: "CSS" },
+  //   { icon: <SiTailwindcss className="text-cyan-400" />, name: "TailwindCSS" },
+  //   { icon: <SiCplusplus className="text-blue-400" />, name: "C++" },
+  // ];
+const icons = [
+  { icon: <SiReact className="text-cyan-400" />, name: "React" },
+  { icon: <SiNodedotjs className="text-green-500" />, name: "Node.js" },
+  { icon: <SiExpress className="text-gray-300" />, name: "Express" },
+  { icon: <SiMongodb className="text-green-400" />, name: "MongoDB" },
+  { icon: <SiMysql className="text-blue-500" />, name: "MySQL / SQL" },
+  { icon: <SiAdobephotoshop className="text-blue-400" />, name: "Photoshop" },
+  { icon: <SiGithub className="text-white" />, name: "GitHub" },
+  { icon: <SiGit className="text-orange-500" />, name: "Git" },
+  { icon: <SiFigma className="text-pink-400" />, name: "Figma" },
+  { icon: <SiJavascript className="text-yellow-400" />, name: "JavaScript" },
+  { icon: <SiHtml5 className="text-orange-600" />, name: "HTML" },
+  { icon: <SiCss3 className="text-blue-500" />, name: "CSS" },
+  { icon: <SiTailwindcss className="text-cyan-400" />, name: "TailwindCSS" },
+  { icon: <SiCplusplus className="text-blue-400" />, name: "C++" },
+  { icon: <SiUnity className="text-gray-200" />, name: "Unity" },
+  { icon: <SiBlender className="text-orange-500" />, name: "Blender" },
+  { icon: <SiCsharp className="text-purple-500" />, name: "C#" },
+];
 
   const handleCopy = () => {
     navigator.clipboard.writeText("gurmehak.codes@gmail.com");
@@ -134,8 +157,7 @@ const About = () => {
               Hi, I’m Gurmehak Kaur
             </p>
             <p className="text-sm">
-              A passionate Frontend and Backend Developer based in India,
-              specializing in creating scalable and user-friendly experiences.
+              A passionate game developer based in Chandigarh, India. I love creating interactive, user-friendly digital experiences and solving complex problems with clean, efficient code.
             </p>
           </div>
         </div>
@@ -160,7 +182,7 @@ const About = () => {
               My Tech Stack
             </p>
             <p className="text-sm">
-              My expertise includes MERN stack and UI design, with a passion for learning new technologies.
+              My expertise includes Unity Engine, UI design and MERN stack, with a passion for learning new technologies.
             </p>
           </div>
         </div>

@@ -31,7 +31,7 @@ const Hero = () => {
 
       {/* Headline */}
       <p className="sm:text-4xl text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 font-generalsans leading-snug">
-        Hi, I am Gurmehak <span className="waving-hand">👋</span>
+        Hi, I am Gurmehak 
       </p>
 
       {/* Subheadline */}
