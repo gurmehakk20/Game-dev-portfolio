@@ -173,6 +173,11 @@ export const myProjects = [
         name: 'Photoshop',
         path: '/assets/logos/photoshop.png',
       },
+      {
+        id: 3,
+        name: 'C#',
+        path: '/assets/logos/csharp.png',
+      },
       
     ],
   },
@@ -202,6 +207,11 @@ export const myProjects = [
         id: 2,
         name: 'Photoshop',
         path: '/assets/logos/photoshop.png',
+      },
+      {
+        id: 3,
+        name: 'C#',
+        path: '/assets/logos/csharp.png',
       },
       
     ],
