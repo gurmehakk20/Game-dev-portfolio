@@ -41,7 +41,7 @@ const Hero = () => {
 
       {/* Paragraph / Description */}
       <p className="md:text-xl text-lg text-gray-400 max-w-lg leading-relaxed">
-        I build interactive websites and solve challenging problems with clean, efficient code. My goal is to turn ideas into functional, user-friendly digital experiences.
+        I build immersive and engaging games using Unity Engine and C#. With a passion for creativity and problem-solving, I strive to create interactive experiences that captivate players and bring ideas to life.
       </p>
 
       {/* CTAs */}

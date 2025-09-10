@@ -152,7 +152,7 @@ export const myProjects = [
     desc: 'A flappy bird style 2D game built using Unity Engine and C#. The game features simple yet engaging gameplay where players control a character to navigate through obstacles and achieve high scores.',
     
     href: 'https://gurmehakk20.itch.io/flarpy-blorb',
-    texture: '/Projects/textures/project/project3.mp4',
+    texture: '/Projects/textures/Videos/flarpy-blorb.mp4',
     logo: '/Projects/Logos/project-logo3.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
