@@ -23,7 +23,7 @@ import {
   SiCplusplus,
   SiUnity,
   SiBlender,
-  SiCsharp,
+  SiDotnet,
 } from "react-icons/si";
 
 import { FaLaptopCode } from "react-icons/fa";
@@ -83,7 +83,7 @@ const icons = [
   { icon: <SiCplusplus className="text-blue-400" />, name: "C++" },
   { icon: <SiUnity className="text-gray-200" />, name: "Unity" },
   { icon: <SiBlender className="text-orange-500" />, name: "Blender" },
-  { icon: <SiCsharp className="text-purple-500" />, name: "C#" },
+  { icon: <SiDotnet className="text-purple-500" />, name: "C#" },
 ];
 
   const handleCopy = () => {
