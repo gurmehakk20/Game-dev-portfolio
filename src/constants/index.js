@@ -306,6 +306,14 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
+    name: 'Pratishthan Software Ventures',
+    pos: 'SDE Intern',
+    duration: 'September 2025 - April 2026',
+    title: "Contributed to Finacle UK CHAPS, a real-time high-value payments system that enables same-day settlement of transactions worth millions of pounds daily. Developed the Return Customer Payment functionality by implementing robust validation and idempotency checks to prevent duplicate or invalid reversals, strengthening transaction integrity and reducing operational risk. Conducted comprehensive end-to-end testing across the complete CHAPS payment workflow, increasing test coverage by 30% and ensuring high reliability and accuracy in a mission-critical banking platform.",
+    icon: '/assets/logos/pratisthan.jpeg',
+  },
+  {
+    id: 2,
     name: 'OneSnack',
     pos: 'Internship - Web Developer',
     duration: 'July 2024 - Dec 2024',
@@ -314,7 +322,7 @@ export const workExperiences = [
     video: '/Projects/Videos/onesnack.mp4',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Open Source Chandigarh',
     pos: 'Technical Team Member',
     duration: 'Sept 2023 - June 2024',
@@ -322,6 +330,6 @@ export const workExperiences = [
     icon: '/assets/logos/osc-logo.jpg',
     video: '/Projects/Videos/OSC.mp4',
 
-  },
+  }
   
 ];
